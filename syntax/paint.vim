@@ -6,26 +6,24 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syntax match oneBrush ' \+'
-
-syntax keyword black n nextgroup=oneBrush
-syntax keyword white w nextgroup=oneBrush
-syntax keyword red r nextgroup=oneBrush
-syntax keyword Red R nextgroup=oneBrush
-syntax keyword blue b nextgroup=oneBrush
-syntax keyword Blue B nextgroup=oneBrush
-syntax keyword yellow y nextgroup=oneBrush
-syntax keyword Yellow Y nextgroup=oneBrush
-syntax keyword green g nextgroup=oneBrush
-syntax keyword Green G nextgroup=oneBrush
-syntax keyword pink p nextgroup=oneBrush
-syntax keyword Pink P nextgroup=oneBrush
-syntax keyword gray1 1 nextgroup=oneBrush
-syntax keyword gray2 2 nextgroup=oneBrush
-syntax keyword gray3 3 nextgroup=oneBrush
-syntax keyword gray4 4 nextgroup=oneBrush
-syntax keyword gray5 5 nextgroup=oneBrush
-syntax keyword gray6 6 nextgroup=oneBrush
+syntax match black 'n *' 
+syntax match white 'w *'
+syntax match red 'r *'
+syntax match Red 'R *'
+syntax match blue 'b *'
+syntax match Blue 'B *'
+syntax match yellow 'y *'
+syntax match Yellow 'Y *' 
+syntax match green 'g *'
+syntax match Green 'G *'
+syntax match pink 'p *'
+syntax match Pink 'P *'
+syntax match gray1 '1 *'
+syntax match gray2 '2 *'
+syntax match gray3 '3 *'
+syntax match gray4 '4 *'
+syntax match gray5 '5 *'
+syntax match gray6 '6 *'
 
 
 let b:current_syntax = "paint"

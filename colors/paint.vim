@@ -6,6 +6,8 @@ hi red    ctermfg=1   ctermbg=1
 hi Red    ctermfg=52  ctermbg=52
 hi yellow ctermfg=3   ctermbg=3
 hi Yellow ctermfg=178 ctermbg=178
+hi blue   ctermfg=4   ctermbg=4
+hi Blue   ctermfg=17  ctermbg=17
 hi green  ctermfg=2   ctermbg=2
 hi Green  ctermfg=22  ctermbg=22
 hi pink   ctermfg=163 ctermbg=162
